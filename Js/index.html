@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reusable Presentation Template</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Presentation Title</h1>
+            <button id="toggle-mode">Toggle Dark/Light Mode</button>
+        </header>
+        
+        <div class="slides">
+            <div class="slide opening-slide">
+                <h2>Welcome to the Presentation</h2>
+                <p>Your journey to knowledge enhancement starts here!</p>
+            </div>
+            <div class="slide image-slide">
+                <h2>Slide with Images</h2>
+                <img src="https://via.placeholder.com/600" alt="Placeholder Image">
+            </div>
+            <div class="slide chart-slide">
+                <h2>Slide with a Chart</h2>
+                <canvas id="myChart" width="600" height="400"></canvas>
+            </div>
+            <div class="slide code-slide">
+                <h2>Slide with a Code Block</h2>
+                <pre><code>function greet(name) {
+                    console.log(`Hello, ${name}!`);
+                  }</code></pre>
+            </div>
+            <div class="slide python-slide">
+                <h2>Python Code Compiler</h2>
+                <textarea id="python-code" rows="10" cols="50">print("Hello from Python")</textarea>
+                <button id="run-python">Run Python Code</button>
+                <pre id="python-output"></pre>
+            </div>
+            <div class="slide closing-slide">
+                <h2>Thank You!</h2>
+                <p>For more information, please contact us.</p>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>© 2023 Demo Company. All rights reserved.</p>
+            <p>Contact: demo@example.com</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
